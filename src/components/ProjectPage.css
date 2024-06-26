@@ -1,0 +1,104 @@
+/* ProjectPage.css */
+
+.project-page {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  
+  .project-heading {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 2.25rem;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-link:hover .project-box {
+    cursor: pointer;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2), 0 0 15px #00bfff;
+    border: 2px solid #00bfff;
+  }
+  .project-container{
+    width:90%;
+    padding-left: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .project-box {
+    margin-bottom: 2rem;
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    width:55rem;
+    padding: 40px;
+    border: 2px solid #ccc;
+    border-radius: 3rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  .project-item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-image-container {
+    width: 50%;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-image {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 1.2rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    display: flex;
+  }
+  
+  .project-content {
+    width: 100%;
+    max-width: 48rem;
+    flex-basis: 75%;
+    padding-left: 20px;
+  }
+  
+  .project-title {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .project-description {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .project-technologies {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-linebreak {
+    white-space: pre-line;
+  }
+  .tech-box {
+    background-color: rgb(25, 29, 29);
+    color: rgb(28, 215, 209); 
+    padding: 5px 10px; 
+    border-radius: 5px;
+  }

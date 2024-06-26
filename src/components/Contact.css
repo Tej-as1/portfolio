@@ -1,0 +1,32 @@
+/* Contact.css */
+
+.contact-page {
+    text-align: center;
+    padding: 50px 20px;
+    color: aliceblue; /* Dark text color */
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    color: aliceblue; /* Adjust heading color as needed */
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info a {
+    color: #00bfff; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
