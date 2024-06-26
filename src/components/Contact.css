@@ -4,8 +4,8 @@
   text-align: center;
   padding: 50px 20px;
   color: aliceblue;
-  overflow-y: auto; /* Allow vertical scrolling */
-  height: 70vh; /* Make the contact page take the full viewport height */
+  overflow-y: auto; 
+  height: 70vh; 
 }
 
 .contact-heading {

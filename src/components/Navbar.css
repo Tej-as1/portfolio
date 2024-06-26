@@ -23,12 +23,12 @@
 
 .navbar-container .part1 {
     color: rgb(84, 47, 176);
-    display: inline; /* Ensure part1 and part2 are inline */
+    display: inline; 
 }
 
 .navbar-container .part2 {
     color: rgb(252, 246, 246);
-    display: inline; /* Ensure part1 and part2 are inline */
+    display: inline;
 }
 
 .space {
@@ -45,21 +45,20 @@
     padding-right: 10px;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .navbar-container {
         padding: 1rem;
         font-size: 1.5rem;
-        flex-direction: row; /* Keep row direction */
-        align-items: center; /* Align items center */
-        justify-content: space-between; /* Keep space-between */
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: space-between; 
     }
 
     .navbar_icon {
         font-size: 1.5rem;
         padding-right: 0;
         gap: 5px;
-        align-self: center; /* Align icons to the center */
+        align-self: center;
     }
 
     .space {
@@ -67,7 +66,7 @@
     }
 
     .navbar {
-        flex-direction: row; /* Keep row direction */
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }

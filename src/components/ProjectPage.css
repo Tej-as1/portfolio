@@ -105,7 +105,6 @@
   border-radius: 5px;
 }
 
-/* Media query for mobile */
 @media (max-width: 768px) {
   .project-container {
     padding-left: 0;
