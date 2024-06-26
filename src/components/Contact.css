@@ -1,32 +1,50 @@
 /* Contact.css */
 
 .contact-page {
-    text-align: center;
-    padding: 50px 20px;
-    color: aliceblue; /* Dark text color */
+  text-align: center;
+  padding: 50px 20px;
+  color: aliceblue;
+  overflow-y: auto; /* Allow vertical scrolling */
+  height: 70vh; /* Make the contact page take the full viewport height */
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  color: aliceblue;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 20px 10px;
+    height: auto; /* Allow the height to adjust based on content */
+    min-height: 70vh; /* Ensure it takes at least the full viewport height */
   }
-  
+
   .contact-heading {
-    font-size: 2.5rem;
-    padding-top: 50px;
-    margin-bottom: 40px;
-    color: aliceblue; /* Adjust heading color as needed */
+    font-size: 2rem;
   }
-  
+
   .contact-info {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
-  
-  .contact-info p {
-    margin-bottom: 20px;
-  }
-  
-  .contact-info a {
-    color: #00bfff; /* Link color */
-    text-decoration: none; /* Remove underline */
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
+}

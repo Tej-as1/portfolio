@@ -1,17 +1,16 @@
-.navbar{
+.navbar {
     margin-bottom: -20px;
     color: white;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: relative;
-    top: 0; */
 }
-.navbar-container{
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-start; 
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 2rem;
     padding-left: 1px;
     font-size: 2rem;
@@ -21,22 +20,55 @@
     top: 0;
     z-index: 10;
 }
-.navbar-container .part1{
-    color:rgb(84, 47, 176)
-    
+
+.navbar-container .part1 {
+    color: rgb(84, 47, 176);
+    display: inline; /* Ensure part1 and part2 are inline */
 }
-.navbar-container .part2{
-    color:rgb(252, 246, 246)
+
+.navbar-container .part2 {
+    color: rgb(252, 246, 246);
+    display: inline; /* Ensure part1 and part2 are inline */
 }
-.space{
+
+.space {
     margin-left: 9px;
 }
-.navbar_icon{
-    margin: 8px;;
+
+.navbar_icon {
+    margin: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     font-size: 1.7rem;
     padding-right: 10px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 1rem;
+        font-size: 1.5rem;
+        flex-direction: row; /* Keep row direction */
+        align-items: center; /* Align items center */
+        justify-content: space-between; /* Keep space-between */
+    }
+
+    .navbar_icon {
+        font-size: 1.5rem;
+        padding-right: 0;
+        gap: 5px;
+        align-self: center; /* Align icons to the center */
+    }
+
+    .space {
+        margin-left: 0;
+    }
+
+    .navbar {
+        flex-direction: row; /* Keep row direction */
+        align-items: center;
+        justify-content: space-between;
+    }
 }

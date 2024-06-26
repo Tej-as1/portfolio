@@ -25,29 +25,12 @@ const About = () => {
         transition={{duration:0.5,delay:0.3 }}
         className="about-text">
           <p>
-            I am Tejas Sharma, a 3-rd year BTech student in IIITA, pursuing Information Technology.
-            <br />
-            I am a highly passionate and hardworking student, focussed in the fields of DSA, Competitive
-            Coding, Frontend Development, Machine Learning and AI.
-            <br />
-            Through the curriculum, I have acquired thorough knowledge in subjects like Operating
-            Systems, OOPS and DBMS, and have also practically leveraged my knowledge of these
-            concepts in real life projects.
-            <br />
-            I am also an avid coder and problem solver with over a year's experience of coding in C and
-            C++. Being a Expert on Codeforces and Knight on LeetCode, I have a decent knowledge about DSA and am constantly learning, solving and improving my
-            coding skills.
-            <br />
-            I have hands on experience on working with databases like MySQL and OracleDB.
-            <br />
-            Besides, I also have a keen interest in Machine Learning and AI. I have received several
-            certifications and have developed many Python based projects on OpenCV, CNN, Regression
-            and Recommender Systems. I am also the AI-ML Wing Member of our college's prestigious
-            technical society, GeekHaven.
-            <br />
-            Being a <span className="bold">TEDx Speaker</span> and a member of the literary club of our college, I also have proficient
-            communication skills and am able to efficiently convey my views and thoughts to others.
-          </p>
+  I am Tejas Sharma, a 3rd year BTech student at IIITA, pursuing Information Technology. My passion and hard work are focused on DSA, Competitive Coding, Frontend Development, Machine Learning, and AI.<br></br>
+  Through my curriculum, I have gained knowledge in Operating Systems, OOPS, and DBMS, applying these concepts in real-life projects. I have over a year of coding experience in C and C++, and am an Expert on Codeforces and a Knight on LeetCode.<br></br>
+  I have hands-on experience with databases like MySQL and OracleDB. I am also deeply interested in Machine Learning and AI, with several certifications and projects on OpenCV, CNN, Regression, and Recommender Systems. As an AI-ML Wing Member of GeekHaven, our college's technical society, I actively engage in AI-ML activities.<br></br>
+  Additionally, I am a TEDx Speaker and a member of our college's literary club, which has helped me develop proficient communication skills to convey my views effectively.
+</p>
+
         </motion.div>
       </div>
     </div>
