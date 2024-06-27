@@ -17,7 +17,7 @@ const varaintContainer = (duration) => ({
 });
 const Tech = () => {
   return (
-    <div className="tech-page">a
+    <div className="tech-page">
       <motion.h2
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ x: -100, opacity: 0 }}
